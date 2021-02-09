@@ -262,16 +262,6 @@
     display: flex;
     align-items: center;
     margin-bottom: 30px;
-    flex-direction: column;
-}
-
-.mid-section .voting-buttons .ctn-btn{
-    display: flex;
-    align-self: flex-start;
-}
-
-.mid-section .cont-again{
-    display: none;
 }
 
 .mid-section .voting-buttons .vote-now{
@@ -302,8 +292,6 @@
    font: 29px li;
    color: #FFF;
    padding: 9px 10px;
-   transition: 0.3s; 
-   min-width: 149px;
 }
 
 .mid-section .cont-percets .voting-bar i{
