@@ -1,0 +1,634 @@
+/*Estilos de home*/
+
+.upper-section{
+    margin-bottom: 33px;
+    position: relative;
+}
+.upper-section .main-image{
+    margin: 0 auto;
+    display: block;
+}
+
+.upper-section .cont-absolute{
+    position: absolute;
+    left: 0;
+}
+
+.upper-section .cont-absolute.up{
+    bottom: 17%;
+}
+
+.upper-section .cont-absolute.down{
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.upper-section .cont-width{
+    width: 500px;
+}
+  
+.upper-section .cont-text{
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(30px);
+    background-color: rgb(75, 75, 75,0.5);  
+    padding: 35px 30px;
+    
+}
+  
+.upper-section .cont-text h3{
+    font: 16px li;
+    color: #FFF;
+    margin: 0;
+}
+
+.upper-section .cont-text .veredict{
+    font: 20px bold;
+    color: #FFF;
+}
+
+.upper-section .cont-text h2{
+    font: 60px regular;
+    color: #FFF;
+   margin-bottom: 12px;
+}
+
+.upper-section .cont-text p{
+    font: 21px li;
+    color: #FFF;
+    margin-bottom: 15px;
+}
+
+.upper-section .cont-text a{
+    font: 14px li;
+    color: #FFF;
+    margin-bottom: 35px;
+    display: block;
+}
+
+.upper-section .cont-text a:hover span{
+    text-decoration: underline;
+}
+
+.upper-section .cont-voting{
+    overflow: hidden;
+}
+
+.upper-section .cont-voting button{
+    width: 50%;
+    float: left;
+    padding: 15px 0;
+}
+
+.upper-section .cont-voting button i{
+    font-size: 37px;
+}
+
+.upper-section .cont-closing .ctn-closing{
+    width: 25%;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.upper-section .cont-closing .closing{
+    background: rgba(112,112,112,0.3);
+    width: 100%;
+    padding: 22px 10px;
+    float: left;
+}
+
+.upper-section .cont-closing .border-triangle{
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-left: 10px solid rgba(112,112,112,0.3);
+    border-bottom: 7px solid transparent;
+    float: left;
+    margin-right: -11px;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.upper-section .cont-closing .closing p{
+    color: #FFF;
+    font: 13px regular;
+    text-transform: uppercase;
+    text-align: right;
+    margin: 0;
+}
+
+.upper-section .cont-closing .days{
+    background: rgba(255,255,255,0.7);
+    width: 75%;
+    padding: 8px 15px;
+    float: left;
+}
+
+.upper-section .cont-closing .days p{
+    font: 36px li;
+    color: #333333;
+    text-align: left;
+    margin: 0;
+}
+
+.upper-section .cont-closing .days p span{
+    font-family: regular;
+}
+
+.upper-mid-section{
+    margin-bottom: 35px;
+}
+
+.upper-mid-section .cont-grey{
+    background-color: #ebebeb;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.upper-mid-section .cont-grey .cont-title{
+    margin-right: 15px;
+    width: 445px;
+}
+
+.upper-mid-section .cont-grey .cont-title h4{
+    font: 28px li;
+    color: #333333;
+    text-align: left;
+    margin: 0;
+}
+
+.upper-mid-section .cont-grey .cont-title h3{
+    font: 37px bold;
+    color: #333333;
+    text-align: left;
+    margin: 0;
+}
+
+.upper-mid-section .cont-grey .cont-text p{
+    font: 15px li;
+    color: #333333;
+    text-align: left;
+    margin: 0;
+}
+
+.upper-mid-section .cont_close i{
+    color: #4b4b4b;
+    font-size: 22px;
+}
+
+.mid-section .item-title{
+    padding: 0 23px;
+    margin-bottom: 40px; 
+    font: 40px li;
+    color: #333333;
+}
+
+
+.mid-section .cont-items{
+    margin: 0;
+}
+
+.mid-section .cont-item-person{
+    padding: 0 23px;
+    margin-bottom: 40px; 
+}
+
+.mid-section .ctn-item{
+    position: relative;
+}
+
+.mid-section .cont-info{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.mid-section .ctn-gradient{
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); 
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); 
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); 
+    display: flex;
+    padding-top: 158px;
+}
+
+.mid-section .ctn-gradient .info-vote{
+    width: 31px;
+    height: 31px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid-section .ctn-gradient .info-vote:hover{
+    transform: none;
+}
+
+.mid-section .cont-text-title{
+    width: calc(100% - 41px);
+}
+
+.mid-section .cont-text-title h3{
+    font: 45px regular;
+    color: #FFF;
+    line-height: 41px;
+}
+
+.mid-section .cont-text-title p{
+    color: #FFF;
+}
+
+.mid-section .cont-text-title .past-voting{
+    font: 12px regular;
+    margin-bottom: 15px;
+}
+
+.mid-section .cont-text-title .past-voting span{
+    font-family: bold;
+}
+
+.mid-section .cont-text-title .info{
+    font: 16px li;
+    margin-bottom: 20px;
+}
+
+.mid-section .voting-buttons{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+
+.mid-section .voting-buttons .ctn-btn{
+    display: flex;
+    align-self: flex-start;
+}
+
+.mid-section .cont-again{
+    display: none;
+}
+
+.mid-section .voting-buttons .vote-now{
+    border: 1px #FFF solid;
+    font: 14px regular;
+    color: #FFF;
+    text-align: center;
+    background-color: rgba(0,0,0,0.2);
+    padding: 7px 20px;
+    transition: 0.3s; 
+}
+
+.mid-section .voting-buttons .vote-now:hover{
+    transform: scale(1.05);
+}
+
+.mid-section .voting-buttons .vote{
+    padding: 3px 7px;
+    margin-right: 15px;
+}
+
+
+.mid-section .cont-percets{
+    display: flex;
+}
+
+.mid-section .cont-percets .voting-bar{
+   font: 29px li;
+   color: #FFF;
+   padding: 9px 10px;
+   transition: 0.3s; 
+   min-width: 149px;
+}
+
+.mid-section .cont-percets .voting-bar i{
+    font-size: 29px;
+}
+
+.mid-section .cont-percets .voting-bar.positive{
+   text-align: left;
+}
+
+.mid-section .cont-percets .voting-bar.negative{
+   text-align: right;
+}
+
+.mid-section .cont-percets .vote:hover{
+    transform: none;
+}
+
+
+
+
+.lower-section .cont-back{
+    background: url(../images/back_down.jpg) no-repeat center center;
+    margin-bottom: 38px;
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 13px 24px;
+}
+
+.lower-section .cont-back h2{ 
+    font: 30px li;
+    color: #333333;
+    text-align: left;
+    float: left;
+}
+
+.lower-section .cont-back a{
+    text-align: center;
+    border: 1px #333333 solid;
+    padding: 5px 15px;
+    font: 20px regular;
+    color: #333333;
+    float: right;
+    transition: 0.3s;
+}
+
+.lower-section .cont-back a:hover{
+    transform: scale(1.05);
+}
+
+@media(max-width: 1300px){
+    .upper-mid-section .cont-grey .cont-title h4{
+        font-size: 25px;
+    }
+    .upper-mid-section .cont-grey .cont-title{
+        width: 390px;
+    }
+    .upper-section .cont-absolute.up{
+        bottom: 11%;
+    }
+    
+    
+}
+
+@media(max-width: 1200px){
+    
+    .upper-mid-section .cont-grey .cont-title h3{
+        font-size: 34px;
+    }
+    .upper-mid-section .cont-grey .cont-title h4{
+        font-size: 20px;
+    }
+    .mid-section .item-title{
+        padding: 0 8px;
+    }
+    
+    .mid-section .cont-item-person:nth-child(odd){
+        padding: 0 20px 0 8px;
+    }
+    
+    .mid-section .cont-item-person:nth-child(even){
+        padding: 0 8px 0 20px;
+    }
+}
+
+@media(max-width: 1200px) and (min-width: 991px){
+    .upper-section .cont-text h2{
+        font-size: 42px;
+    }
+    .upper-section .cont-text p{
+        font-size: 17px;
+    }
+    .upper-section .cont-voting button{
+        padding: 8px 0;
+    }
+    .upper-section .cont-voting button i{
+        font-size: 30px;
+    }
+    .upper-section .cont-text{
+        padding: 20px 30px;
+    }
+    
+    .upper-section .cont-absolute.up{
+        bottom: 17%;
+    }
+} 
+
+
+
+@media(max-width: 991px){
+    
+    .upper-section .cont-width,
+    .upper-mid-section,
+    .lower-section{
+        padding: 0 !important;
+    } 
+    
+    .upper-section .cont-absolute.up{
+        bottom: 16%;
+    }
+    
+    .upper-section .cont-width{
+        width: 400px;
+    }
+    
+    .upper-section .cont-text{
+        padding: 15px;
+    }
+    
+    .upper-section .cont-text h3{
+        font-size: 14px;
+    }
+    
+    .upper-section .cont-text h2{
+        font-size: 40px;
+    }
+    
+    .upper-section .cont-text p{
+        font-size: 16px;
+    }
+    
+    .upper-section .cont-text a{
+        margin-bottom: 20px;
+    }
+    
+    .upper-section .cont-voting button{
+        padding: 10px 0;
+    }
+    
+    .upper-section .cont-voting button i{
+        font-size: 30px;
+    }
+    
+    .upper-section .cont-closing .days p{
+        font-size: 25px;
+    }
+    
+    .upper-section .cont-closing .closing{
+        padding: 15px 5px;
+    }
+    
+    .upper-mid-section .cont-grey{
+        padding: 12px 15px;
+    }
+    
+    
+    .upper-mid-section .cont-grey .cont-title{
+        width: 431px;
+    }
+    
+    
+    
+    .lower-section .cont-back h2{
+        font-size: 25px;
+    }
+    
+    .mid-section .cont-percets .voting-bar{
+        font-size: 20px;
+    }
+    
+    .mid-section .cont-percets .voting-bar i{
+        font-size: 20px;
+    }
+    
+    .mid-section .cont-text-title h3{
+        font-size: 35px;
+    }
+    
+}
+
+@media(max-width: 767px){
+    
+    .upper-section{
+        margin-bottom: 0;
+    }
+    
+    .upper-section .cont-absolute{
+        position: relative;
+    }
+    
+    .upper-section .cont-width{
+        width: 100%;
+    }
+    
+    .upper-mid-section .cont-grey{
+        display: block;
+    }
+    
+    .upper-mid-section .cont-grey .cont-title h4{
+        text-align: center
+    }
+    
+    .upper-mid-section .cont-grey .cont-title h3{
+        text-align: center
+    }
+    
+    .upper-mid-section .cont-grey .cont-text p{
+        text-align: center;
+    }
+    
+    .upper-mid-section .cont-grey .cont-title{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    
+    .upper-mid-section .cont_close{
+        position: absolute;
+        top: 7px;
+        right: 7px;
+    }
+    
+    .lower-section .cont-back{
+        display: flex;
+        flex-direction: column;
+        padding: 8px 24px;
+    }
+    
+    .lower-section .cont-back h2{
+        text-align: center;
+        font-size: 21px;
+    }
+    
+    .lower-section .cont-back a{
+        font-size: 18px;
+    }
+    
+    .mid-section .ctn-gradient{
+        padding-top: 0;
+    }
+    
+    
+    .mid-section .cont-text-title h3{
+        font-size: 23px; 
+        line-height: normal
+    }
+}
+
+@media(max-width: 575px){
+    
+    .upper-section .cont-closing .ctn-closing{
+        width: 36%;
+    }
+    
+    .upper-section .cont-closing .days{
+        width: 64%;
+    }
+    
+    .upper-section .cont-text h2{
+        font-size: 35px;
+    }
+    
+    .upper-section .cont-voting button i{
+        font-size: 25px;
+    }
+    
+    .upper-mid-section{
+        margin-bottom: 20px;
+    }
+    
+    .lower-section .cont-back h2{
+        font-size: 15px;
+    }
+    
+    .lower-section .cont-back a{
+        font-size: 16px;
+    }
+    
+    .lower-section .cont-back{
+        padding: 8px 10px;
+    }
+    
+    .mid-section .cont-item-person:nth-child(odd){
+        padding: 0 8px;
+    }
+    
+    .mid-section .cont-item-person:nth-child(even){
+        padding: 0 8px;
+    }
+    
+    .mid-section .voting-buttons{
+        margin-bottom: 10px;
+    }
+    
+    .mid-section .cont-text-title .info{
+        margin-bottom: 15px;
+    }
+    
+    .mid-section .cont-text-title .past-voting{
+        margin-bottom: 10px;
+    }
+    
+    .mid-section .cont-text-title h3{
+        font-size: 30px;
+    }
+    
+    .mid-section .item-title{
+        margin-bottom: 20px;
+    }
+    
+    
+    
+}
+
+
+
+
